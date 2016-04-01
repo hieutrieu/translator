@@ -20,7 +20,7 @@ class Translator
     private static $instance = null;
     private $language   = 'vi';
     private $lang       = [];
-    private $langDir = 'lang';
+    private $langDir = 'resources/lang';
     private $module = 'backend';
 
     public static function getInstance($language = 'vi', $module = 'backend')
